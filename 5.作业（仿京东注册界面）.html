@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>仿京东注册页面</title>
+    <style>
+        table{
+            width: 800px;
+            height: 452px;
+            border: 1px solid rgb(214, 205, 214);
+            margin: auto;
+        }
+        .xbt{
+            text-align: left;
+            background-color: rgb(248, 246, 248);
+            border: 1px solid rgb(214, 205, 214);
+            color: black;
+            height: 18px;
+            font-size: 14px;
+            font-family: "微软雅黑";
+        }
+        .m,#fx{
+            text-align: right;
+            color:rgb(202, 196, 202) ;
+            padding: px 19px;
+        }
+        span{
+            color: red;
+        }
+        #fx{
+            width: 500px;
+            font-size: 13px;
+        }
+        #an{
+            text-align: center;
+        }
+        #an1{
+            width: 140px;
+            height: 30px;
+            background-color: red;
+            color: white;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <!-- 用户信息 -->
+        <tr>
+            <td colspan="2" class="xbt">账户信息</td>
+        </tr>
+        <tr>
+            <td class="m"><span>*</span>用户名:</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td class="m"><span>*</span>请设置密码:</td>
+            <td><input type="password"></td>
+        </tr>
+        <tr>
+            <td class="m"><span>*</span>请确认密码:</td>
+            <td><input type="password"></td>
+        </tr>
+        <!-- 联系人信息 -->
+        <tr>
+            <td colspan="2" class="xbt"> 联系人信息</td>
+        </tr>
+        <tr>
+            <td class="m"><span>*</span>联系人姓名:</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td class="m"><span>*</span>所在部门:</td>
+            <td><select name="" id="">
+                <option value="">请选择部门</option>
+                <option value="">销售部</option>
+                <option value="">管理部</option>
+                <option value="">生产部</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td class="m"><span>*</span>*固定电话:</td>
+            <td><input type="password"></td>
+        </tr>
+        <!-- 公司信息 -->
+        <tr>
+            <td colspan="2" class="xbt">公司信息</td>
+        </tr>
+        <tr>
+            <td class="m"><span>*</span>公司名称:</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td class="m"><span>*</span>购买类型/用途:</td>
+            <td id="fx">
+                <input type="checkbox">IT设备
+                <input type="checkbox">数码通讯
+                <input type="checkbox">办公用品耗材
+                <input type="checkbox">大家电
+                <input type="checkbox">项目合作-政府采购
+                <input type="checkbox">礼品
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" id="an"><button id="an1">立即提交</button></td>
+        </tr>
+    </table>
+</body>
+</html>
